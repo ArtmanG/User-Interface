@@ -73,7 +73,12 @@ body {
 }
 
 h2 {
-	font-size: 150%;
+	font-size: 120%;
+}
+
+p {
+	font-size: 110%;
+	line-height: 1.1;
 }
 
 /*----------------- MAIN NAV ----------------------*/
@@ -106,7 +111,7 @@ nav a:hover {
 /*---------------------- HEADER ----------------------*/
 
 header {
-	margin: 5% 0 0;
+	margin: 7% 0 0;
 }
 header div {
 	display: inline-block;
@@ -121,32 +126,41 @@ header h1 {
 header p {
 	display: inline-block;
 	text-align: center;
-	font-size: 125%;
+	font-size: 115%;
 	border: 1px solid black;
-	padding: 2% 15%;
+	padding: 1.5% 10%;
+	margin-left: 27%;
 }
 
 .header-text {
-	margin: 0 10% 5% 0;
+	margin: 0 14% 5% 5%;
 }
 
 /*---------------------- LINES ----------------------*/
 
 .lines {
-	color: black;
 	margin: 2% 0;
+}
+
+.lines hr{
+	color: black;
+	border: 1px solid black;
 }
 
 
 /*---------------------- TOP-CONTENT ----------------------*/
 
 .top-content {
-	margin: 2% 0;
+	margin: 4% 0;
 }
 
 .top-content div {
 	display: inline-block;
 	width: 49%;
+}
+
+#features {
+	margin-right: 1%;
 }
 
 /*---------------------- MIDDLE IMAGE ----------------------*/
@@ -161,10 +175,21 @@ header p {
 
 /*---------------------- MORE-CONTENT ----------------------*/
 
+.more-content {
+	margin: 5% 0;
+}
+
 .more-content div {
 	display: inline-block;
-	width: 33%;
-	margin: 0
+	width: 32%;
+}
+
+#services {
+	margin-right: 1.5%;
+}
+
+#product {
+	margin-right: 1.5%;
 }
 
 
@@ -181,4 +206,5 @@ footer {
 }
 footer p {
 	text-align: center;
+	font-size: 100%;
 }
