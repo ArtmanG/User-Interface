@@ -4,7 +4,7 @@
   	padding:0;
   	margin:0;
   	max-width:100%;
-	border: solid 1px grey;
+	/* border: solid 1px grey; */
 }
 /* MAIN NAV */
 .nav{
@@ -52,7 +52,7 @@ header p {
 
 /* TOP-CONTENT */
 .top-content {
-	margin: 0 5%;
+	margin: 2% 5%;
 }
 
 .top-content div {
@@ -61,3 +61,38 @@ header p {
 	margin: 0 4.5%;
 }
 
+/* MIDDLE IMAGE */
+
+.middle-image {
+	margin: 0 5% 2%;
+}
+
+.middle-image img {
+	width: 100%;
+}
+
+/* MORE-CONTENT */
+
+.more-content {
+	margin: 0 5%;
+}
+
+.more-content div {
+	display: inline-block;
+	width: 33%;
+	margin: 0
+}
+
+
+/* CONTACT */
+#contact {
+	margin: 5% 5%;
+}
+
+/* FOOTER */
+footer {
+	margin: 0 5% 10%;
+}
+footer p {
+	text-align: center;
+}
